@@ -1,6 +1,8 @@
+# 启动docker服务
+>`service docker start`
 # 镜像
 
-> - ```docker images```:列出本地主机上的镜像。
+> - ```docker images```:列出本地主机上的镜像。  
 > ![在这里插入图片描述](https://img-blog.csdnimg.cn/bc908244f64c429e841dd20e063ab3d1.png)
 > - `docker pull ubuntu:20.04`:拉取一个ubuntu:20.04镜像。
 > - `docker rmi ubuntu:20.04`:删除ubuntu:20.04的镜像。
