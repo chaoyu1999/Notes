@@ -1,10 +1,12 @@
-# 镜像：
+# 镜像
 
-> - ```docker images ```:列出本地主机上的镜像。
+> - ```docker images```:列出本地主机上的镜像。
 > ![在这里插入图片描述](https://img-blog.csdnimg.cn/bc908244f64c429e841dd20e063ab3d1.png)
 > - `docker pull ubuntu:20.04`:拉取一个ubuntu:20.04镜像。
 > - `docker rmi ubuntu:20.04`:删除ubuntu:20.04的镜像。
+
 # 容器
+
 > - ```docker run```:创建一个新的容器并运行一个命令。
 > 参数解释(以`docker run -itd  --gpus all --name ubunut  ubuntu:focal /bin/bash`为例)：使用ubuntu:focal镜像创建一个容器。
 > -d: 后台运行容器，并返回容器ID；
